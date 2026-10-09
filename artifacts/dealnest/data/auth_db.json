@@ -1,7 +1,7 @@
 {
   "admin": {
-    "hash": "d1f6d25efc32d00c0e0a195279cc74bc1fc94927485cf340cd03105c995ae43b",
-    "salt": "23171ddbc227bdcc503bb77d79d18202",
+    "hash": "1c2bc89893fba47f0faba53d396436e8fd6cedeb733e64622595fdb81ea524e0",
+    "salt": "11161dca0920987446bedb67d34ba6c2",
     "needsChange": false,
     "lastChanged": 1791391949881
   },
