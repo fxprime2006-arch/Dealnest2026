@@ -1,0 +1,535 @@
+{
+  "admin": {
+    "hash": "d1f6d25efc32d00c0e0a195279cc74bc1fc94927485cf340cd03105c995ae43b",
+    "salt": "23171ddbc227bdcc503bb77d79d18202",
+    "needsChange": false,
+    "lastChanged": 1791391949881
+  },
+  "secretCodes": [
+    {
+      "id": "sc_62a6a8362776da31",
+      "codeHash": "7424a78c8b651cd496b2dfc2eef0c3072cec2f56aef3131d6f33736b23f4a989",
+      "salt": "dc917cb5e60633eb3b59668a",
+      "status": "used",
+      "createdAt": 1791293680736,
+      "usedAt": 1791362622117,
+      "usedBy": "VIP Shopper",
+      "note": "VIP Access Pass #1"
+    },
+    {
+      "id": "sc_e64cd6b6d4a0afa8",
+      "codeHash": "5f280be9e953f32a321802452a74ee13fb7c25582469778dad070015653e60bb",
+      "salt": "0d8b179d567052eb0321e17e",
+      "status": "used",
+      "createdAt": 1791293680736,
+      "usedAt": 1791381294344,
+      "usedBy": "Test User",
+      "note": "Pro Member Pass #2"
+    },
+    {
+      "id": "sc_49cad3971df2b38e",
+      "codeHash": "67b5c7e2804cf384563cfed5e6c147701d0c51c8600d7cfb62611431d1cf9921",
+      "salt": "5aa4d069a7da8154957192a5",
+      "status": "used",
+      "createdAt": 1791293680736,
+      "usedAt": 1791381495568,
+      "usedBy": "Preview Test",
+      "note": "Early Adopter Pass #3"
+    },
+    {
+      "id": "sc_f256de0143a0bcdf",
+      "codeHash": "57330df4a9ebfc43d5605f065ebe8bb9ee192287c7a62191731826b0808fdf41",
+      "salt": "004fd6c0ff0d20ebbf5b0bab",
+      "status": "active",
+      "createdAt": 1791293680736,
+      "usedAt": null,
+      "usedBy": null,
+      "note": "Beta Access Pass #4"
+    },
+    {
+      "id": "sc_95c81639de1f2ba9",
+      "codeHash": "bf486cffb3e0a6c94efdff73287bac2e2fa388fdb8f3e3fdfc125e8f5b27df01",
+      "salt": "1fea6d876271b88df8de1a50",
+      "status": "used",
+      "createdAt": 1791294202356,
+      "usedAt": 1791294202360,
+      "usedBy": "AliceTester",
+      "note": "Verification Batch"
+    },
+    {
+      "id": "sc_4e26ba7eea141370",
+      "codeHash": "7f1cab74c39a836710863bc33e762cc28b7c8d5f7c8d7abb56fc205c99b5a265",
+      "salt": "13a2396bb21783a522cb1925",
+      "status": "disabled",
+      "createdAt": 1791294202356,
+      "usedAt": null,
+      "usedBy": null,
+      "note": "Verification Batch"
+    },
+    {
+      "id": "sc_17fe8a69088dede7",
+      "codeHash": "e276b0d0fcf88b612191abe85cb819ad5084319b1b160da1c58164b0b5d815ce",
+      "salt": "3198e5a4904245863d424667",
+      "status": "active",
+      "createdAt": 1791294202356,
+      "usedAt": null,
+      "usedBy": null,
+      "note": "Verification Batch"
+    },
+    {
+      "id": "sc_af5f6c9fd4c7eb9e",
+      "codeHash": "d862688c15861b71b06ce889c75af843eb746de8376bdf1f29f94060f7c0f329",
+      "salt": "1e3774ce5e6b07717a9af700",
+      "status": "revoked",
+      "createdAt": 1791294219202,
+      "usedAt": null,
+      "usedBy": null,
+      "note": "Disable Test"
+    },
+    {
+      "id": "sc_131d49e092826331",
+      "codeHash": "038486f8d81bb8bd6c9e2cd725c321293a686c1c7e8cfe5ceedd801e823db25f",
+      "salt": "6b121dc0727911122915f8f6",
+      "status": "active",
+      "createdAt": 1791294530205,
+      "usedAt": null,
+      "usedBy": null,
+      "note": "Standard Access Pass"
+    },
+    {
+      "id": "sc_09a56230f4b59f86",
+      "codeHash": "60bc2e843a9e8fb911297e8bff7e4a0c4aeaa24a642de131a4fbb65d19baa2e8",
+      "salt": "053755d68acd65f8574b737a",
+      "status": "used",
+      "createdAt": 1791295736155,
+      "usedAt": 1791295740793,
+      "usedBy": "VIP Shopper",
+      "note": "Live Verification"
+    },
+    {
+      "id": "sc_85abc2440333f59a",
+      "codeHash": "bc3aaa6d94f35a79380430a71753e30e47ccad2b900b81eecee9801a684958bd",
+      "salt": "b33ddf55f7800795bbf928a0",
+      "status": "revoked",
+      "createdAt": 1791295736155,
+      "usedAt": null,
+      "usedBy": null,
+      "note": "Live Verification"
+    },
+    {
+      "id": "sc_e196cf810c3d008f",
+      "codeHash": "fb38eedbd1ffe5766a13bf061541b1113a13e58ea325f74e6ef2b0d9d767d018",
+      "salt": "3bb6797602df7e92bb27d410",
+      "status": "used",
+      "createdAt": 1791361257758,
+      "usedAt": 1791385961883,
+      "usedBy": "Enrolled Member",
+      "note": "Standard Access Pass",
+      "usedIp": "172.17.31.178",
+      "usedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "sc_ed3f9960e0478cfb",
+      "codeHash": "3b3d098c3c4f642d431e0c8ef6b10ae3264925d7d6eb35696049ae04a21f1fc9",
+      "salt": "9816217008441519893c1be1",
+      "status": "used",
+      "createdAt": 1791386012239,
+      "usedAt": 1791386012275,
+      "usedBy": "Full Audit User",
+      "note": "Disposable full-site audit",
+      "usedIp": "198.51.100.22",
+      "usedUserAgent": "curl/8.5.0"
+    }
+  ],
+  "sessions": [],
+  "activity": [
+    {
+      "id": "act_0ce67fcba2d339fb",
+      "codeId": "sc_e196cf810c3d008f",
+      "code": "NEST-••••-••••",
+      "userName": "Enrolled Member",
+      "ip": "172.17.31.178",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "usedAt": 1791385961883
+    },
+    {
+      "id": "act_5aef2d9a866ade22",
+      "codeId": "sc_ed3f9960e0478cfb",
+      "code": "AUDIT-••••-••••",
+      "userName": "Full Audit User",
+      "ip": "198.51.100.22",
+      "userAgent": "curl/8.5.0",
+      "usedAt": 1791386012275
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "audit_c27c44052f521daab1e8",
+      "userId": "admin",
+      "ip": "127.0.0.1",
+      "action": "ADMIN_LOGIN",
+      "description": "Administrator authenticated successfully.",
+      "timestamp": 1791385784185
+    },
+    {
+      "id": "audit_eea5688aef97aaa7c8d7",
+      "userId": "admin",
+      "ip": "172.17.0.15",
+      "action": "ADMIN_LOGIN",
+      "description": "Administrator authenticated successfully.",
+      "timestamp": 1791385952735
+    },
+    {
+      "id": "audit_2999fc825ba754515334",
+      "userId": "user_sc_e196cf810c3d008f",
+      "ip": "172.17.31.178",
+      "action": "USER_LOGIN",
+      "description": "User authenticated with an access code.",
+      "timestamp": 1791385961883,
+      "metadata": {
+        "userName": "Enrolled Member"
+      }
+    },
+    {
+      "id": "audit_c0d34f1d0c62db08048e",
+      "userId": "user_sc_e196cf810c3d008f",
+      "ip": "172.17.0.15",
+      "action": "DISCLAIMER_VIEWED",
+      "description": "Viewed global disclaimer version 1.",
+      "timestamp": 1791385962093,
+      "metadata": {
+        "version": 1
+      }
+    },
+    {
+      "id": "audit_5215326b606a76970ea5",
+      "userId": "user_sc_e196cf810c3d008f",
+      "ip": "172.17.47.151",
+      "action": "DISCLAIMER_ACCEPTED",
+      "description": "Accepted global disclaimer version 1.",
+      "timestamp": 1791385966484,
+      "metadata": {
+        "version": 1
+      }
+    },
+    {
+      "id": "audit_25d3875e5a2f8e3b9dcd",
+      "userId": "user_sc_e196cf810c3d008f",
+      "ip": "172.17.47.151",
+      "action": "RESOURCE_ACCESSED",
+      "description": "Accessed free resource: home.",
+      "timestamp": 1791385966559,
+      "metadata": {
+        "resource": "home"
+      }
+    },
+    {
+      "id": "audit_bff304f934c5c983d546",
+      "userId": "admin",
+      "ip": "203.0.113.10",
+      "action": "ADMIN_LOGIN",
+      "description": "Administrator authenticated successfully.",
+      "timestamp": 1791385970396
+    },
+    {
+      "id": "audit_0ef6a9948ae5b8e274cf",
+      "userId": "user_sc_e196cf810c3d008f",
+      "ip": "172.17.0.15",
+      "action": "RESOURCE_ACCESSED",
+      "description": "Accessed free resource: search.",
+      "timestamp": 1791385977299,
+      "metadata": {
+        "resource": "search"
+      }
+    },
+    {
+      "id": "audit_f59760b5e44c2b9e2208",
+      "userId": "user_sc_e196cf810c3d008f",
+      "ip": "172.17.0.15",
+      "action": "RESOURCE_ACCESSED",
+      "description": "Accessed free resource: deals.",
+      "timestamp": 1791385982199,
+      "metadata": {
+        "resource": "deals"
+      }
+    },
+    {
+      "id": "audit_7af8be2f2a4a6e455647",
+      "userId": "user_sc_e196cf810c3d008f",
+      "ip": "172.17.0.15",
+      "action": "RESOURCE_ACCESSED",
+      "description": "Accessed protected resource /api/market/live-feed.",
+      "timestamp": 1791385987101
+    },
+    {
+      "id": "audit_347d3daded0192702226",
+      "userId": "user_sc_e196cf810c3d008f",
+      "ip": "172.17.47.151",
+      "action": "RESOURCE_ACCESSED",
+      "description": "Accessed free resource: coupons.",
+      "timestamp": 1791385989077,
+      "metadata": {
+        "resource": "coupons"
+      }
+    },
+    {
+      "id": "audit_860d500f9e913ea535d0",
+      "userId": "user_sc_e196cf810c3d008f",
+      "ip": "172.17.31.178",
+      "action": "RESOURCE_ACCESSED",
+      "description": "Accessed free resource: ai.",
+      "timestamp": 1791385994707,
+      "metadata": {
+        "resource": "ai"
+      }
+    },
+    {
+      "id": "audit_20a56a07ff0662d573aa",
+      "userId": "user_sc_e196cf810c3d008f",
+      "ip": "172.17.31.178",
+      "action": "RESOURCE_ACCESSED",
+      "description": "Accessed protected resource /api/market/live-feed.",
+      "timestamp": 1791385998136
+    },
+    {
+      "id": "audit_4ae259b8990c9d7126ed",
+      "userId": "user_sc_e196cf810c3d008f",
+      "ip": "172.17.47.151",
+      "action": "RESOURCE_ACCESSED",
+      "description": "Accessed protected resource /api/ai/chat.",
+      "timestamp": 1791385998195
+    },
+    {
+      "id": "audit_20f9543e629d98fe438b",
+      "userId": "user_sc_e196cf810c3d008f",
+      "ip": "172.17.31.178",
+      "action": "RESOURCE_ACCESSED",
+      "description": "Accessed protected resource /api/market/live-feed.",
+      "timestamp": 1791386012097
+    },
+    {
+      "id": "audit_80e29a85b9a9d418470c",
+      "userId": "admin",
+      "ip": "127.0.0.1",
+      "action": "ADMIN_LOGIN",
+      "description": "Administrator authenticated successfully.",
+      "timestamp": 1791386012200
+    },
+    {
+      "id": "audit_4b2b680e32c6e30301cb",
+      "userId": "user_sc_ed3f9960e0478cfb",
+      "ip": "198.51.100.22",
+      "action": "USER_LOGIN",
+      "description": "User authenticated with an access code.",
+      "timestamp": 1791386012275,
+      "metadata": {
+        "userName": "Full Audit User"
+      }
+    },
+    {
+      "id": "audit_23ef13487f7a81cad151",
+      "userId": "user_sc_ed3f9960e0478cfb",
+      "ip": "127.0.0.1",
+      "action": "SESSION_RELOADED",
+      "description": "Active user session was checked on reload or login.",
+      "timestamp": 1791386012336
+    },
+    {
+      "id": "audit_5bef8af25cbdd4311c58",
+      "userId": "user_sc_ed3f9960e0478cfb",
+      "ip": "198.51.100.22",
+      "action": "DISCLAIMER_ACCEPTED",
+      "description": "Accepted global disclaimer version 1.",
+      "timestamp": 1791386012373,
+      "metadata": {
+        "version": 1
+      }
+    },
+    {
+      "id": "audit_4935b13a5991ab5fa328",
+      "userId": "user_sc_ed3f9960e0478cfb",
+      "ip": "127.0.0.1",
+      "action": "RESOURCE_ACCESSED",
+      "description": "Accessed protected resource /api/market/live-feed.",
+      "timestamp": 1791386012397
+    },
+    {
+      "id": "audit_a80a5a053709aea3d9ef",
+      "userId": "user_sc_ed3f9960e0478cfb",
+      "ip": "127.0.0.1",
+      "action": "RESOURCE_ACCESSED",
+      "description": "Accessed protected resource /api/deals/analyze-search.",
+      "timestamp": 1791386012421
+    },
+    {
+      "id": "audit_2f87a971d1419a11c18e",
+      "userId": "user_sc_ed3f9960e0478cfb",
+      "ip": "127.0.0.1",
+      "action": "RESOURCE_ACCESSED",
+      "description": "Accessed protected resource /api/ai/chat.",
+      "timestamp": 1791386012448
+    },
+    {
+      "id": "audit_c20f2b145383c77436e8",
+      "userId": "user_sc_ed3f9960e0478cfb",
+      "ip": "127.0.0.1",
+      "action": "RESOURCE_ACCESSED",
+      "description": "Accessed free resource: audit-test.",
+      "timestamp": 1791386012474,
+      "metadata": {
+        "resource": "audit-test"
+      }
+    },
+    {
+      "id": "audit_55bdb7fe28c5972ced5a",
+      "userId": "user_sc_e196cf810c3d008f",
+      "ip": "172.17.0.15",
+      "action": "RESOURCE_ACCESSED",
+      "description": "Accessed protected resource /api/market/live-feed.",
+      "timestamp": 1791386013776
+    },
+    {
+      "id": "audit_4cafcbe007fffa795242",
+      "userId": "user_sc_e196cf810c3d008f",
+      "ip": "172.17.31.178",
+      "action": "RESOURCE_ACCESSED",
+      "description": "Accessed protected resource /api/ai/chat.",
+      "timestamp": 1791386013832
+    },
+    {
+      "id": "audit_e05da49b5604283d4527",
+      "userId": "user_sc_e196cf810c3d008f",
+      "ip": "172.17.31.178",
+      "action": "RESOURCE_ACCESSED",
+      "description": "Accessed free resource: home.",
+      "timestamp": 1791386026780,
+      "metadata": {
+        "resource": "home"
+      }
+    },
+    {
+      "id": "audit_8570b6f5dd8d1109ad47",
+      "userId": "user_sc_e196cf810c3d008f",
+      "ip": "172.17.0.15",
+      "action": "DISCLAIMER_VIEWED",
+      "description": "Viewed global disclaimer version 1.",
+      "timestamp": 1791386026782,
+      "metadata": {
+        "version": 1
+      }
+    },
+    {
+      "id": "audit_2379c291c5dddb4b347e",
+      "userId": "user_sc_e196cf810c3d008f",
+      "ip": "172.17.0.15",
+      "action": "SESSION_RELOADED",
+      "description": "Active user session was checked on reload or login.",
+      "timestamp": 1791386026838
+    },
+    {
+      "id": "audit_afa2c6416b5f340c56b1",
+      "userId": "user_sc_e196cf810c3d008f",
+      "ip": "172.17.31.178",
+      "action": "RESOURCE_ACCESSED",
+      "description": "Accessed free resource: home.",
+      "timestamp": 1791386026840,
+      "metadata": {
+        "resource": "home"
+      }
+    },
+    {
+      "id": "audit_f213a92e89d22a5699a5",
+      "userId": "user_sc_e196cf810c3d008f",
+      "ip": "172.17.47.151",
+      "action": "RESOURCE_ACCESSED",
+      "description": "Accessed free resource: ai.",
+      "timestamp": 1791386040130,
+      "metadata": {
+        "resource": "ai"
+      }
+    },
+    {
+      "id": "audit_ee977e5f70625af0060c",
+      "userId": "user_sc_e196cf810c3d008f",
+      "ip": "172.17.31.178",
+      "action": "RESOURCE_ACCESSED",
+      "description": "Accessed protected resource /api/market/live-feed.",
+      "timestamp": 1791386044524
+    },
+    {
+      "id": "audit_8d5219d24089352c95cb",
+      "userId": "user_sc_e196cf810c3d008f",
+      "ip": "172.17.47.151",
+      "action": "RESOURCE_ACCESSED",
+      "description": "Accessed protected resource /api/ai/chat.",
+      "timestamp": 1791386044590
+    },
+    {
+      "id": "audit_bdfd5ba2fcee20e0aa79",
+      "userId": "user_sc_e196cf810c3d008f",
+      "ip": "172.17.31.178",
+      "action": "RESOURCE_ACCESSED",
+      "description": "Accessed protected resource /api/market/live-feed.",
+      "timestamp": 1791386051781
+    },
+    {
+      "id": "audit_6671b8d29ab0419be337",
+      "userId": "user_sc_e196cf810c3d008f",
+      "ip": "172.17.47.151",
+      "action": "RESOURCE_ACCESSED",
+      "description": "Accessed protected resource /api/market/live-feed.",
+      "timestamp": 1791386074137
+    },
+    {
+      "id": "audit_1ee40d6f4c2b9d28e1f1",
+      "userId": "admin",
+      "ip": "10.144.153.1",
+      "action": "ADMIN_LOGIN",
+      "description": "Administrator authenticated successfully.",
+      "timestamp": 1791388888996
+    },
+    {
+      "id": "audit_255f8813d9b74899ac10",
+      "userId": "admin",
+      "ip": "10.144.153.1",
+      "action": "ADMIN_LOGIN",
+      "description": "Administrator authenticated successfully.",
+      "timestamp": 1791388933589
+    },
+    {
+      "id": "audit_19f7859c8630caf4abad",
+      "userId": "admin",
+      "ip": "10.144.153.1",
+      "action": "ADMIN_LOGIN",
+      "description": "Administrator authenticated successfully.",
+      "timestamp": 1791389058219
+    },
+    {
+      "id": "audit_2da318142f672ac59419",
+      "userId": "admin",
+      "ip": "10.100.80.1",
+      "action": "ADMIN_LOGIN",
+      "description": "Administrator authenticated successfully.",
+      "timestamp": 1791391921077
+    },
+    {
+      "id": "audit_7557b0049468545032e3",
+      "userId": "admin",
+      "ip": "10.100.80.1",
+      "action": "DISCLAIMER_UPDATED",
+      "description": "Global disclaimer updated to version 1.",
+      "timestamp": 1791391964979,
+      "metadata": {
+        "version": 1
+      }
+    }
+  ],
+  "config": {
+    "accessGateEnabled": false,
+    "defaultCustomerView": "home",
+    "defaultLocation": "Hyderabad",
+    "disclaimerVersion": 1,
+    "disclaimerText": "This platform is free to use. Information is provided for general resource and comparison purposes, may change without notice, and should be independently verified before you act. No content on this platform is a guarantee, endorsement, or substitute for your own judgment.",
+    "disclaimerUpdatedAt": 1791385754907
+  }
+}

@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "DealNest"
+description = "A consumer shopping-deals app for discovering partner offers, comparing prices, managing coupons, and getting help from an AI assistant."
+version = "1.0.0"
+id = "artifacts/dealnest"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21673
+
+[services.development]
+run = "pnpm --filter @workspace/dealnest run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/dealnest", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/dealnest/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21673"
+BASE_PATH = "/"

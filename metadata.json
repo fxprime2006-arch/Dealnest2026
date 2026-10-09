@@ -1,0 +1,8 @@
+{
+  "name": "DealNest",
+  "description": "Real-Time Data Deals & Live Price Comparison tracking shopping, food delivery, and quick commerce prices across major platforms.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
