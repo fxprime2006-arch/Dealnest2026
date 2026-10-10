@@ -22,10 +22,10 @@ importers:
   artifacts/api-server:
     dependencies:
       '@workspace/api-zod':
-        specifier: file:../../lib/api-zod
+        specifier: workspace:*
         version: link:../../lib/api-zod
       '@workspace/db':
-        specifier: file:../../lib/db
+        specifier: workspace:*
         version: link:../../lib/db
       cookie-parser:
         specifier: ^1.4.7
